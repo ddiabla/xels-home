@@ -3990,6 +3990,13 @@ external-editor@^3.0.3:
     iconv-lite "^0.4.24"
     tmp "^0.0.33"
 
+external-svg-loader@^1.3.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/external-svg-loader/-/external-svg-loader-1.3.1.tgz#ded9aaa3ec03cd44e5fe675ba4b55a088f2d0eab"
+  integrity sha512-UHu/l/lO/HaoN68OQUpxmk6yUhX/jSBqR5AipZAdfdqVn1wwflkLW+hrtWlWOSLrD3y4Fc1fH80SpTLDoNBkAg==
+  dependencies:
+    idb-keyval "^3.2.0"
+
 extglob@^2.0.4:
   version "2.0.4"
   resolved "https://registry.npm.taobao.org/extglob/download/extglob-2.0.4.tgz#ad00fe4dc612a9232e8718711dc5cb5ab0285543"
@@ -4840,6 +4847,11 @@ icss-utils@^5.0.0:
   version "5.1.0"
   resolved "https://registry.npm.taobao.org/icss-utils/download/icss-utils-5.1.0.tgz#c6be6858abd013d768e98366ae47e25d5887b1ae"
   integrity sha1-xr5oWKvQE9do6YNmrkfiXViHsa4=
+
+idb-keyval@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/idb-keyval/-/idb-keyval-3.2.0.tgz#cbbf354deb5684b6cdc84376294fc05932845bd6"
+  integrity sha512-slx8Q6oywCCSfKgPgL0sEsXtPVnSbTLWpyiDcu6msHOyKOLari1TD1qocXVCft80umnkk3/Qqh3lwoFt8T/BPQ==
 
 ieee754@^1.1.4:
   version "1.2.1"
