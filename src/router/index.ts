@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 import Home from "../views/Home.vue";
 import Docs from "../views/Docs.vue";
-import Contribute from "../views/Docs.vue";
-import NotFound from "../views/Contribute.vue";
+import Contribute from "../views/Contribute.vue";
+import NotFound from "../views/NotFound.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
