@@ -39,4 +39,28 @@ a {
   margin-bottom: 0.4rem;
   color: #ffffff99;
 }
+
+@media screen and (max-width: 508px) {
+  .card {
+    border-radius: 1.2rem;
+    width: 25rem;
+  }
+  .card > h3 {
+    font-size: 1em;
+  }
+  .card > p {
+    font-size: 0.8em;
+  }
+}
+@media screen and (max-width: 395px) {
+  .card {
+    width: 18em;
+  }
+  .card > h3 {
+    font-size: 0.9em;
+  }
+  .card > p {
+    font-size: 0.8em;
+  }
+}
 </style>

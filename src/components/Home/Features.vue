@@ -76,25 +76,7 @@ export default defineComponent({
   padding: 6rem 4rem 4rem 4rem;
   color: white;
 }
-.features-sub {
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 1.5rem;
-  color: #21e0ac;
-  margin-top: 1rem;
-  margin-bottom: 0.8rem;
-  white-space: nowrap;
-}
-.features-text {
-  white-space: nowrap;
-  font-size: 1.8rem;
-  margin-bottom: 0.8rem;
-}
-.features-desc {
-  font-size: 1rem;
-  color: #ffffff99;
-  margin-bottom: 3rem;
-}
+
 .features-list {
   display: grid;
   justify-content: center;
@@ -107,5 +89,27 @@ export default defineComponent({
 
 .features-list > .feature {
   margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 1120px) {
+  .features-list {
+    grid-template-columns: unset;
+    grid-template-rows: repeat(2, auto);
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .features-list {
+    grid-template-columns: unset;
+    grid-template-rows: repeat(2, auto);
+  }
+}
+@media screen and (max-width: 508px) {
+  .features-list {
+    margin-top: 2rem;
+    grid-template-columns: unset;
+    grid-template-rows: repeat(2, auto);
+    padding: 0.6rem;
+  }
 }
 </style>

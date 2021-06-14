@@ -35,4 +35,9 @@ footer > h3 > a {
   text-decoration: none;
   color: white;
 }
+@media screen and (max-width: 508px) {
+  footer > h3 {
+    font-size: 1em;
+  }
+}
 </style>

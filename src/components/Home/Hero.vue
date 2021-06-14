@@ -15,7 +15,13 @@
       >
         Invite Bot
       </a>
-      <router-link class="btn outline" to="/docs">See Docs</router-link>
+      <a
+        class="btn outline"
+        href="https://github.com/itstyonirwansyah/transero-bot#bot-commands"
+        target="_blank"
+        rel="alternate"
+        >See Docs</a
+      >
     </div>
   </div>
 </template>
@@ -73,5 +79,87 @@ export default defineComponent({
   color: #21e0ac;
   background: transparent;
   box-shadow: 0 0 0 4px #21e0ac inset;
+}
+
+@media screen and (max-width: 705px) {
+  .hero {
+    padding: 5rem 4em;
+    width: 36rem;
+  }
+  .hero-sub {
+    font-size: 1.8em;
+  }
+  .hero-text {
+    font-size: 1.9em;
+  }
+}
+@media screen and (max-width: 600px) {
+  .hero {
+    width: 32rem;
+    padding: 5rem 4em 5em 3em;
+  }
+  .hero-sub {
+    font-size: 1.6em;
+  }
+  .hero-text {
+    font-size: 1.7em;
+  }
+}
+@media screen and (max-width: 508px) {
+  .hero {
+    padding: 5rem 2rem;
+    width: 24em;
+  }
+  .hero-sub {
+    font-size: 1.3em;
+  }
+  .hero-text {
+    font-size: 1.6em;
+    line-height: 1.8em;
+  }
+  .btn-container {
+    gap: 2em;
+  }
+  .btn {
+    padding: 1rem 2rem;
+  }
+}
+@media screen and (max-width: 376px) {
+  .hero {
+    margin-top: 0;
+    width: auto;
+  }
+  .hero-sub {
+    font-size: 1em;
+  }
+  .hero-text {
+    font-size: 1.5em;
+  }
+  .hero-desc {
+    font-size: 0.8em;
+    color: #ffffff99;
+  }
+  .btn-container {
+    gap: 1em;
+  }
+  .btn {
+    padding: 1rem 1.2rem;
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 385px) {
+  .hero {
+    padding: 5rem 2rem;
+  }
+  .hero-sub {
+    font-size: 1em;
+  }
+  .hero-text {
+    font-size: 1.2em;
+  }
+  .btn {
+    padding: 1rem 1.4rem;
+    font-size: 0.8em;
+  }
 }
 </style>

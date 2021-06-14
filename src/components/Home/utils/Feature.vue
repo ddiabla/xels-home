@@ -37,6 +37,7 @@ export default defineComponent({
 <style scoped>
 .feature {
   display: flex;
+  justify-content: center;
   align-items: center;
   width: 30rem;
 }
@@ -53,5 +54,35 @@ export default defineComponent({
 .text > h2 {
   margin-bottom: 1rem;
   white-space: nowrap;
+}
+
+.text > p {
+  color: #ffffff99;
+}
+
+@media screen and (max-width: 600px) {
+  .feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 24rem;
+    text-align: center;
+  }
+
+  .icon {
+    margin: -3rem 0 2rem 0;
+  }
+}
+@media screen and (max-width: 508px) {
+  .feature {
+    width: auto;
+  }
+  .text > h2 {
+    font-size: 1em;
+  }
+  .text > p {
+    font-size: 0.8em;
+  }
 }
 </style>

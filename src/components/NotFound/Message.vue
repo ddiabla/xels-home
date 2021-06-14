@@ -34,6 +34,7 @@ export default defineComponent({
 }
 
 .notfound > h1 {
+  text-align: center;
   margin-bottom: 2rem;
 }
 
@@ -62,5 +63,28 @@ export default defineComponent({
   color: #21e0ac;
   background: transparent;
   box-shadow: 0 0 0 4px #21e0ac inset;
+}
+
+@media screen and (max-width: 600px) {
+  .notfound > h1 {
+    font-size: 1.2em;
+  }
+  .btn {
+    padding: 1rem 2rem;
+    font-size: 0.8rem;
+  }
+  .btn-container {
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .notfound > h1 {
+    font-size: 0.8em;
+  }
+  .btn {
+    padding: 0.6rem 1.4rem;
+    font-size: 0.8rem;
+  }
 }
 </style>

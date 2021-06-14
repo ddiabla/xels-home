@@ -83,4 +83,40 @@ export default defineComponent({
   font-weight: 600;
   flex-direction: column;
 }
+
+@media screen and (max-width: 705px) {
+  .middle-box {
+    gap: 5rem;
+    width: 25em;
+  }
+}
+@media screen and (max-width: 615px) {
+  .middle-box {
+    gap: 4rem;
+    width: 22em;
+  }
+}
+@media screen and (max-width: 600px) {
+  .middle-box {
+    padding: 4rem 2rem;
+    gap: 3rem;
+    width: 20em;
+  }
+}
+@media screen and (max-width: 508px) {
+  .middle-box > p {
+    font-size: 0.8em;
+  }
+  .middle-box {
+    width: 16em;
+  }
+}
+@media screen and (max-width: 385px) {
+  .middle-box > p {
+    font-size: 0.7em;
+  }
+  .middle-box {
+    width: auto;
+  }
+}
 </style>

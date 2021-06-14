@@ -7,7 +7,7 @@
     />
     <div class="support-link">
       <Card
-        link="https://github.com/itstyonirwansyah/transero-site"
+        link="https://github.com/itstyonirwansyah/transero-bot"
         text="Contribute via Github"
         desc="If you want to contribute to society, Transero welcomes you."
       />
@@ -53,5 +53,11 @@ export default defineComponent({
   align-items: center;
   margin-top: 1rem;
   gap: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .support-link {
+    flex-direction: column;
+  }
 }
 </style>

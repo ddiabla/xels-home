@@ -35,4 +35,32 @@ export default defineComponent({
   color: #ffffff99;
   margin-bottom: 3rem;
 }
+@media screen and (max-width: 615px) {
+  .header {
+    font-size: 1.2rem;
+  }
+  .text {
+    font-size: 1.5rem;
+  }
+  .desc {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 508px) {
+  .header {
+    font-size: 1rem;
+  }
+  .text {
+    font-size: 1.1rem;
+  }
+  .desc {
+    font-size: 0.8rem;
+    width: 20em;
+  }
+}
+@media screen and (max-width: 385px) {
+  .text {
+    font-size: 0.9rem;
+  }
+}
 </style>
